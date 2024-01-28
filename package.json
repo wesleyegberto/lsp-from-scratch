@@ -1,0 +1,29 @@
+{
+  "name": "lsp-from-scratch",
+  "description": "LSP built from scratch",
+  "author": "wesleyegberto",
+  "license": "MIT",
+  "version": "1.0.0",
+  "publisher": "wesleyegberto",
+  "categories": [],
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "activationEvents": [
+    "onLanguage"
+  ],
+  "main": "./vscode-client/out/extension",
+  "contributes": {
+    "configuration": {}
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -b",
+    "watch": "tsc -b -w",
+    "postinstall": "cd vscode-client && npm install && cd ../language-server && npm install && cd .."
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "lsp-from-scratch",
+  "description": "LSP server to be used in VSCode or Neovim",
+  "version": "1.0.0",
+  "author": "wesleyegberto",
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "lsp-from-scratch"
+  },
+  "dependencies": {
+  }
+}

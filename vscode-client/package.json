@@ -1,0 +1,24 @@
+{
+  "name": "vscode-client",
+  "description": "LSP client to be used in VSCode",
+  "author": "wesleyegberto",
+  "license": "MIT",
+  "version": "0.0.1",
+  "publisher": "wesleyegberto",
+  "repository": {
+    "type": "git",
+    "url": "lsp-from-scratch"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "dependencies": {
+    "vscode-languageclient": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.81.0"
+  },
+  "activationEvents": [
+    "onLanguage:plaintext"
+  ]
+}

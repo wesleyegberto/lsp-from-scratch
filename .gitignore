@@ -1,0 +1,6 @@
+out
+node_modules
+vscode-client/server
+.vscode-test
+tsconfig.tsbuildinfo
+.DS_Store
